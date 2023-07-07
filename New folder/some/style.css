@@ -1,0 +1,251 @@
+body {
+  font-family: poppines;
+}
+
+header {
+  background-color: #ce0505;
+  height: 80px;
+  position: relative;
+}
+
+.logo-span {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 12px 20px;
+  position: absolute;
+  left: 80px;
+  top: 13px;
+}
+
+.logo {
+  color: #eb2929;
+  font-size: 33px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login-signup {
+  position: absolute;
+  right: 80px;
+  top: 25px;
+  word-spacing: 10px;
+}
+.login {
+  color: white;
+  text-decoration: none;
+}
+.checkboxes {
+  font-size: 20px;
+  padding: 10px;
+}
+.checkboxes div {
+  margin-bottom: 10px;
+} /* Adjust the value as needed
+*/
+.check-heading {
+  font-size: 24px;
+}
+.check-group {
+  margin: 25px 0 0 10px;
+}
+.cost-heading {
+  font-size: 24px;
+}
+.cost-group {
+  margin: 25px 0 0 10px;
+}
+
+.cost-group div {
+  margin-bottom: 15px;
+}
+div.cost-heading {
+  margin-bottom: 20px;
+}
+input[type="radio"] {
+  transform: scale(1.5); /* Increase the size of the radio buttons */
+}
+input[type="checkbox"] {
+  transform: scale(1.5); /* Increase the size of the radio buttons */
+}
+
+label {
+  font-size: 18px; /* Increase the font size of the radio button labels */
+}
+
+.acc {
+  color: white;
+  word-spacing: normal;
+  text-decoration: none;
+
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+section {
+  position: relative;
+  padding: 20px 50px;
+  top: 10px;
+  left: 20px;
+}
+.title-text {
+  color: #192f60;
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+.filter-article label {
+  margin-left: 20px;
+}
+.opt {
+  margin: 10px 0 0 10px;
+}
+.filter-article {
+  top: 195px;
+  left: 113px;
+  width: 260px;
+  height: 682px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.filt {
+  top: 212px;
+  left: 139px;
+  width: 55px;
+  height: 25px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+  margin-left: 15px;
+}
+
+.img {
+  width: 794px;
+  height: 291px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  position: absolute;
+  top: 100px;
+  left: 350px;
+}
+
+.result2-article {
+  width: 794px;
+  height: 291px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  position: absolute;
+  top: 400px;
+  left: 350px;
+}
+
+.form_select {
+  top: 278px;
+  left: 140px;
+  width: 208px;
+  height: 35px;
+  /* UI Properties */
+  border: 1px solid #8c96ab;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.cui {
+  top: 335px;
+  left: 140px;
+  width: 52px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+}
+
+.cost {
+  top: 544px;
+  left: 140px;
+  width: 89px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+}
+
+.so {
+  top: 756px;
+  left: 139px;
+  width: 37px;
+  height: 25px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+}
+/* ----------------------------------------- */
+.food-card {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.food-card .image-section {
+  position: relative;
+}
+
+.food-card img {
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.food-card .additional-info {
+  position: relative;
+}
+
+.food-card .underline {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 780px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.right-section {
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+p.one {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.additional-info p span {
+  font-weight: bold;
+}
+.name span {
+  margin-right: 100px;
+}
+.name2 span {
+  margin-right: 30px;
+}
